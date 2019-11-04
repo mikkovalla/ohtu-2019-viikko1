@@ -98,6 +98,7 @@ public class VarastoTest {
     
     @Test
     public void saldoaSuurempiOttoEiVieSaldoaNegatiiviseksi() {
+        //kommentti
         varasto.lisaaVarastoon(5);
         varasto.otaVarastosta(10);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
