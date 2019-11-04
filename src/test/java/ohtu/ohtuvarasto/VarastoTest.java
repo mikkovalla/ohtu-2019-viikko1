@@ -87,7 +87,7 @@ public class VarastoTest {
     @Test
     public void tilavuudenYlittysEiMuutaSaldoa() {
         varasto.lisaaVarastoon(100);
-        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(100, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
